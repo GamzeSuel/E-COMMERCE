@@ -1,0 +1,175 @@
+<html>
+<head>
+    <title>CSS</title>
+    <style>
+        body {
+            font-family:Verdana;
+        }
+        .icerik {
+            width: 950px;
+            height: 900px;
+            
+            display: flex;
+        }
+        .menu {
+            width: 250px;
+            height: 300px;
+            color: grey;
+            
+        }
+            .menu ul {
+                list-style: none;
+                text-decoration: underline;
+                margin-bottom: 15px;
+            }
+            .menu li {
+                cursor:grab;
+                line-height: 25px;
+            }
+        h4 {
+            margin-left: 40px;
+            letter-spacing: 5px;
+        }
+        .urunler {
+            width:700px;
+            height: 100%;
+            border: solid black 1px;
+            
+        }
+        .urun {
+            width:200px;
+            height: 300px;
+            border: solid black 1px;
+            margin-top:15px;
+            margin-left:15px;
+            text-align: center;
+            display: inline-block;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius:30px;
+            
+        }
+            .urun img {
+                width: 200px;
+            }
+            .urun div {
+                margin-top:15px;
+                margin-bottom: 15px;
+            }
+            .urun .baslik {
+                color: grey;
+                font-size: 20px;
+            }
+            .urun .uretici {
+                color:green;
+                font-size: 10px;
+                text-decoration: underline;
+
+            }
+            .urun .fiyat {
+                color: grey;
+                font-weight: bold;
+            }
+            .urun .buton {
+                width: 150px;
+                height: 30px;
+                background-color:green;
+                color: white;
+                padding-top: 10px;
+                margin: auto;
+                border-radius: 20px;
+            }
+            .urun a {
+                text-decoration: none;
+            }
+    </style>
+</head>
+<body>
+    <div class="icerik">
+        <div class="menu">
+            <h4>Kategoriler</h4>
+            <ul>
+                <li>
+                    Sebze,Meyve
+                    <ul>
+                        <li>Sebze</li>
+                        <li>Meyve</li>
+                    </ul>
+                </li>
+                <li>
+                    Temel Gýde
+                    <ul>
+                        <li>Bakliyat</li>
+                        <li>Yað</li>
+                    </ul>
+                </li>
+                <li>
+                    Süt ve Süt Ürünleri
+                    <ul>
+                        <li>Süt</li>
+                        <li>Peynir</li>
+                    </ul>
+                </li>
+                <li>
+                    Et Ürünleri
+                    <ul>
+                        <li>Beyaz Et</li>
+                        <li>Kýrmýzý Et</li>
+                        <li>Balýk</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="urunler">
+            <div class="urun">
+                <img src="çilek.jpg" />
+                <div class="baslik"> Çilek </div>
+                <div class="uretici"> A&B Çiftliði</div>
+                <div class="fiyat">20 TL</div>
+
+                <a href="#"> <div class="buton"> Sepete Ekle</div> </a>
+            </div>
+            <div class="urun">
+                <img src="bulgur.jpg" />
+                <div class="baslik"> Bulgur </div>
+                <div class="uretici">Ali Baba Çiftliði </div>
+                <div class="fiyat">30 TL</div>
+
+                <a href="#"> <div class="buton"> Sepete Ekle</div> </a>
+            </div>
+            <div class="urun">
+                <img src="limon.jpg" />
+                <div class="baslik"> Limon </div>
+                <div class="uretici">Filiz Tarým </div>
+                <div class="fiyat">10 TL</div>
+
+                <a href="#"> <div class="buton"> Sepete Ekle</div> </a>
+            </div>
+            <div class="urun">
+                <img src="peynir.jpg" />
+                <div class="baslik"> Peynir </div>
+                <div class="uretici"> Reyhan Çiftliði</div>
+                <div class="fiyat">40 TL</div>
+
+                <a href="#"> <div class="buton"> Sepete Ekle</div> </a>
+            </div>
+            <div class="urun">
+                <img src="somon.jpg" />
+                <div class="baslik"> Somon </div>
+                <div class="uretici"> Yasemin Çiftlik</div>
+                <div class="fiyat">80 TL</div>
+
+                <a href="#"> <div class="buton"> Sepete Ekle</div> </a>
+            </div>
+            <div class="urun">
+                <img src="sut.jpg" />
+                <div class="baslik"> Süt </div>
+                <div class="uretici"> Sarý Tarýmcýlýk</div>
+                <div class="fiyat">15 TL</div>
+
+                <a href="#"> <div class="buton"> Sepete Ekle</div> </a>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
